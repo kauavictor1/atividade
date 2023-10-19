@@ -22,10 +22,8 @@ if(strcmp(login, loginSalvo) == 0 && strcmp(senha, senhaSalva) == 0){
     printf("acesso negado !");
 }
 }
-while (login > loginSalvo || senha > senhaSalva)
-{
-    printf("aaaaaaaaa");
-}
+while (strcmp(login,loginSalvo) != 0 && strcmp(senha,senhaSalva) != 0);
+
 
     return 0;
 }
